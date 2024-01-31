@@ -1,3 +1,6 @@
+# update 
+add inference_autoBG.py which supports inputting image directory
+
 # BSUV-Net: A Fully-Convolutional Neural Network forBackground Subtraction of Unseen Videos
 
 This repository contains the source code of BSUV-Net algorithm as described in the following paper:
