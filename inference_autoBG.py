@@ -31,6 +31,8 @@ w = int(16 * int(w / 16))
 vid_out = None
 if w < 1000:
     vid_out = cv2.VideoWriter(out_path, cv2.VideoWriter_fourcc(*"MP4V"), 30, (3*w+20, h), isColor=True)
+else:
+    Path(out_path).mkdir(parents=True, exist_ok=True)
 
 
 # Start Video Loader

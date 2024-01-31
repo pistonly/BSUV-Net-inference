@@ -177,7 +177,7 @@ def read_half_image(path):
     if img is None:
         return False, None
     h = img.shape[0]
-    img = img[:h//2]
+    img = img[h//2:]
     h, w = img.shape[:2]
     h_valid = int(h / 16) * 16
     w_valid = int(w / 16) * 16
